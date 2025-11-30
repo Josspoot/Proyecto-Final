@@ -1,0 +1,16 @@
+.inicio {
+  text-align: center;
+  background-color: rgb(154, 196, 230);
+  border-radius: 20px;
+}
+
+.conteiner {
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.botones {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
