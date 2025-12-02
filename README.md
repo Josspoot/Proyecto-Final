@@ -8,6 +8,8 @@ Esta actividad muestra el trabajo realizado en el primer cuatrimestre del tecnol
 La actividad me ayudo a terminar de sentar las bases para poder conocer mejor la plataforma de GitHub y como poder desenvolverme mediante el uso de comandos en terminal o en general de la plataforma. 
 ---
 # Contenido del repositorio:
+
+```
 /
 ├── index.html
 │
@@ -50,5 +52,6 @@ La actividad me ayudo a terminar de sentar las bases para poder conocer mejor la
 │       └── script.js
 │
 └── README.md
+```
 
 ---
