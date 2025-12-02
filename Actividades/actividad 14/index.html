@@ -11,11 +11,17 @@
     <a href="../../index.html">Go back</a>
   </button>
   <body>
+    <h1 class="subtitle">
+      Actividad #12 <br />Tecnológico de software <br />
+      Poot Mateo Josué Enmanuel <br />
+      Jorge Javier Pedroza Romero <br />
+      1B
+    </h1>
     <div class="container">
-      <h1>Calculadora Simbólica de Conjuros Lineales</h1>
+      <h1>Calculadora de ecuacionesLineales</h1>
 
       <section class="solver-section">
-        <h2>1. Fórmula para Descubrir la Variable Misteriosa (x)</h2>
+        <h2>1. Fórmula para Descubrir la Variable (x)</h2>
         <p>
           Introduce la ecuación lineal para despejar <strong>x</strong> (ej: 2x
           + 3 = x + 8):
@@ -31,17 +37,15 @@
       <hr />
 
       <section class="solver-section">
-        <h2>2. Despeje de Fórmulas Antiguas</h2>
-        <p>Introduce cualquier fórmula mágica (ej: C = 5(F - 32)/9):</p>
+        <h2>2. Despeje de Fórmulas</h2>
+        <p>Introduce cualquier fórmula (ej: C = 5(F - 32)/9):</p>
 
         <div class="formula-input-container">
-          <label for="formulaLiteral">Fórmula del Grimorio:</label>
+          <label for="formulaLiteral">Fórmula:</label>
           <input type="text" id="formulaLiteral" placeholder="Ej: T = F*c/r" />
         </div>
 
-        <button onclick="procesarFormulaLiteral()">
-          Generar Despejes de Runas
-        </button>
+        <button onclick="procesarFormulaLiteral()">Procesar formula</button>
 
         <div id="resFormulaLiteral" class="result-box"></div>
         <div id="mensajeErrorFormula" class="error-message"></div>

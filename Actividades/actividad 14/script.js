@@ -35,7 +35,7 @@ function resolverEcuacionParseada() {
             <p><strong>Ecuación Simplificada:</strong> ${simplificado.toString()} = 0</p>
         `;
   } catch (error) {
-    errorBox.innerText = `¡Error de la Noche de Brujas! ${error.message}`;
+    errorBox.innerText = `¡Error con el formato! ${error.message}`;
   }
 }
 
