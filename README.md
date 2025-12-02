@@ -9,6 +9,9 @@ La actividad me ayudo a terminar de sentar las bases para poder conocer mejor la
 ---
 # Contenido del repositorio:
 
+# vista de la pagina
+https://josspoot.github.io/Proyecto-Final/
+
 ```
 /
 ├── index.html
